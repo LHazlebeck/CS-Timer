@@ -1,18 +1,18 @@
-const plant1 = require('../assets/c4plant.mp3');
+/*const plant1 = require('../assets/c4plant.mp3');
 const beep1 = require('../assets/c4Sound.mp3');
 const defuse1 = require('../assets/c4defuse.mp3');
 const tWin1 = require('../assets/tWin.mp3');
 const csWin1 = require('../assets/csWin.mp3');
 const defuseAnnounce1 = require('../assets/defuseAnnouncement.mp3');
-const yay1 = require('../assets/yayyyyy.mp3');
+const yay1 = require('../assets/yayyyyy.mp3');*/
 
-const plant = new Audio(plant1);
-const beep = new Audio(beep1);
-const defuse = new Audio(defuse1);
-const tWin = new Audio(tWin1);
-const csWin = new Audio(csWin1);
-const defuseAnnounce = new Audio(defuseAnnounce1);
-const yay = new Audio(yay1);
+const plant = document.getElementById("c4plant");
+const beep = document.getElementById("c4Sound");
+const defuse = document.getElementById("c4defuse");
+const tWin = document.getElementById("tWin");
+const csWin = document.getElementById("csWin");
+const defuseAnnounce =document.getElementById("defuseAnnouncement");
+const yay = new document.getElementById("yay");
 let jerry;
 
 const container = document.querySelector('#centeredmenu');
