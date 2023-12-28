@@ -223,3 +223,41 @@ function bombSet() {
 
 bombSet()
 
+let permission = document.createElement('button')
+body.appendChild(permission)
+
+permission.addEventListener("onclick", function(){
+    plant.volume = 0;
+    beep.volume = 0;
+    defuse.volume = 0;
+    tWin.volume = 0;
+    csWin.volume = 0;
+    defuseAnnounce.volume = 0;
+    yay.volume = 0;
+
+    plant.play();
+    plant.pause();
+    beep.play();
+    beep.pause();
+    defuse.play();
+    defuse.pause();
+    tWin.play();
+    tWin.pause();
+    csWin.play();
+    csWin.pause()
+    defuseAnnounce.play();
+    defuseAnnounce.pause();
+    yay.play();
+    yay.pause();
+    
+    plant.volume = 1;
+    beep.volume = 1;
+    defuse.volume = 1;
+    tWin.volume = 1;
+    csWin.volume = 1;
+    defuseAnnounce.volume = 1;
+    yay.volume = 1;
+
+   permission.remove()
+})
+
