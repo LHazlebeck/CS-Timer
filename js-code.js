@@ -1,17 +1,25 @@
+import plant1 from '../assets/c4plant.mp3';
+import beep1 from '../assets/c4Sound.mp3';
+import defuse1 from '../assets/c4defuse.mp3';
+import tWin1 from '../assets/tWin.mp3';
+import csWin1 from '../assets/csWin.mp3';
+import defuseAnnounce1 from '../assets/defuseAnnouncement.mp3';
+import yay1 from '../assets/yayyyyy.mp3';
+
+const plant = new Audio(plant1);
+const beep = new Audio(beep1);
+const defuse = new Audio(defuse1);
+const tWin = new Audio(tWin1);
+const csWin = new Audio(csWin1);
+const defuseAnnounce = new Audio(defuseAnnounce1);
+const yay = new Audio(yay1);
+let jerry;
+
 const container = document.querySelector('#centeredmenu');
 const body = document.querySelector('body')
 const html = document.querySelector('html')
 const brug = document.querySelector('.brug')
 
-
-const plant = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/c4plant.mp3');
-const beep = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/c4Sound.mp3');
-const defuse = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/c4defuse.mp3')
-const tWin = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/tWin.mp3')
-const csWin = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/csWin.mp3')
-const defuseAnnounce = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/defuseAnnouncement.mp3')
-const yay = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/yayyyyy.mp3')
-let jerry;
 defuseAnnounce.addEventListener('ended', (event) => {
     csWin.play()
     jerry = setTimeout(yay.play(), 3000)
@@ -224,6 +232,7 @@ function bombSet() {
 bombSet()
 
 let permission = document.createElement('button')
+permission.textContent = "CLICK ME FIRST BRO"
 body.appendChild(permission)
 
 permission.addEventListener("click", function(){
