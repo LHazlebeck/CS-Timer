@@ -4,7 +4,7 @@ const html = document.querySelector('html')
 const brug = document.querySelector('.brug')
 
 
-const plant = new Audio('c4plant.mp3');
+const plant = new Audio('./c4plant.mp3');
 const beep = new Audio('c4Sound.mp3');
 const defuse = new Audio('c4defuse.mp3')
 const tWin = new Audio('tWin.mp3')
@@ -174,7 +174,7 @@ function bombSet() {
     beep.currentTime = 0
     let button = document.createElement('button');
     let plantIcon = document.createElement('img')
-    plantIcon.src = "./C4_hud_cso.png"
+    plantIcon.src = "./C4_hud_csgo.png"
     plantIcon.setAttribute('style', 'height: 8rem; width:fit-content; filter:brightness(0%)');
     body.appendChild(button);
     button.appendChild(plantIcon);
