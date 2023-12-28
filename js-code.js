@@ -4,13 +4,13 @@ const html = document.querySelector('html')
 const brug = document.querySelector('.brug')
 
 
-const plant = new Audio('./c4plant.mp3');
-const beep = new Audio('./c4Sound.mp3');
-const defuse = new Audio('.c4defuse.mp3')
-const tWin = new Audio('./sounds/tWin.mp3')
-const csWin = new Audio('./sounds/csWin.mp3')
-const defuseAnnounce = new Audio('./sounds/defuseAnnouncement.mp3')
-const yay = new Audio('./sounds/yayyyyy.mp3')
+const plant = new Audio('c4plant.mp3');
+const beep = new Audio('c4Sound.mp3');
+const defuse = new Audio('c4defuse.mp3')
+const tWin = new Audio('tWin.mp3')
+const csWin = new Audio('sounds/csWin.mp3')
+const defuseAnnounce = new Audio('defuseAnnouncement.mp3')
+const yay = new Audio('yayyyyy.mp3')
 let jerry;
 defuseAnnounce.addEventListener('ended', (event) => {
     csWin.play()
