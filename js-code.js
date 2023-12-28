@@ -226,7 +226,7 @@ bombSet()
 let permission = document.createElement('button')
 body.appendChild(permission)
 
-permission.addEventListener("onclick", function(){
+permission.addEventListener("click", function(){
     plant.volume = 0;
     beep.volume = 0;
     defuse.volume = 0;
