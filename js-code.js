@@ -174,7 +174,7 @@ function bombSet() {
     beep.currentTime = 0
     let button = document.createElement('button');
     let plantIcon = document.createElement('img')
-    plantIcon.src = "./C4_hud_csgo.png"
+    plantIcon.src = "./C4_hud_cso.png"
     plantIcon.setAttribute('style', 'height: 8rem; width:fit-content; filter:brightness(0%)');
     body.appendChild(button);
     button.appendChild(plantIcon);
