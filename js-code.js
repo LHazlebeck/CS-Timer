@@ -4,13 +4,13 @@ const html = document.querySelector('html')
 const brug = document.querySelector('.brug')
 
 
-const plant = new Audio('media/c4plant.mp3');
-const beep = new Audio('media/c4Sound.mp3');
-const defuse = new Audio('media/c4defuse.mp3')
-const tWin = new Audio('media/tWin.mp3')
-const csWin = new Audio('media/sounds/csWin.mp3')
-const defuseAnnounce = new Audio('media/defuseAnnouncement.mp3')
-const yay = new Audio('media/yayyyyy.mp3')
+const plant = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/c4plant.mp3');
+const beep = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/c4Sound.mp3');
+const defuse = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/c4defuse.mp3')
+const tWin = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/tWin.mp3')
+const csWin = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/csWin.mp3')
+const defuseAnnounce = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/defuseAnnouncement.mp3')
+const yay = new Audio('https://github.com/LHazlebeck/CS-Timer/blob/377d39c2932feb1809b4483bd41c31929f2cd506/yayyyyy.mp3')
 let jerry;
 defuseAnnounce.addEventListener('ended', (event) => {
     csWin.play()
