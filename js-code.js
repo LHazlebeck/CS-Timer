@@ -268,4 +268,4 @@ permission.addEventListener("click", function(){
     yay.volume = 1;
 
    permission.remove()
-})
+}) */
