@@ -1,10 +1,10 @@
-import plant1 from '../assets/c4plant.mp3';
-import beep1 from '../assets/c4Sound.mp3';
-import defuse1 from '../assets/c4defuse.mp3';
-import tWin1 from '../assets/tWin.mp3';
-import csWin1 from '../assets/csWin.mp3';
-import defuseAnnounce1 from '../assets/defuseAnnouncement.mp3';
-import yay1 from '../assets/yayyyyy.mp3';
+const plant1 = require('../assets/c4plant.mp3');
+const beep1 = require('../assets/c4Sound.mp3');
+const defuse1 = require('../assets/c4defuse.mp3');
+const tWin1 = require('../assets/tWin.mp3');
+const csWin1 = require('../assets/csWin.mp3');
+const defuseAnnounce1 = require('../assets/defuseAnnouncement.mp3');
+const yay1 = require('../assets/yayyyyy.mp3');
 
 const plant = new Audio(plant1);
 const beep = new Audio(beep1);
