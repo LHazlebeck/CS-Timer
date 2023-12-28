@@ -1,5 +1,5 @@
 {
-  "type": "module"
+  "type": "module";
 }
 
 import plant1 from '../assets/c4plant.mp3';
