@@ -11,8 +11,8 @@ const beep = document.getElementById("c4Sound");
 const defuse = document.getElementById("c4defuse");
 const tWin = document.getElementById("tWin");
 const csWin = document.getElementById("csWin");
-const defuseAnnounce =document.getElementById("defuseAnnouncement");
-const yay = new document.getElementById("yay");
+const defuseAnnounce = document.getElementById("defuseAnnouncement");
+const yay = document.getElementById("yay");
 let jerry;
 
 const container = document.querySelector('#centeredmenu');
