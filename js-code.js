@@ -4,9 +4,9 @@ const html = document.querySelector('html')
 const brug = document.querySelector('.brug')
 
 
-const plant = new Audio('./sounds/c4plant.mp3');
-const beep = new Audio('./sounds/c4Sound.mp3');
-const defuse = new Audio('./sounds/c4defuse.mp3')
+const plant = new Audio('./c4plant.mp3');
+const beep = new Audio('./c4Sound.mp3');
+const defuse = new Audio('.c4defuse.mp3')
 const tWin = new Audio('./sounds/tWin.mp3')
 const csWin = new Audio('./sounds/csWin.mp3')
 const defuseAnnounce = new Audio('./sounds/defuseAnnouncement.mp3')
