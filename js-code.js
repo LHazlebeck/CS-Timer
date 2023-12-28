@@ -1,7 +1,3 @@
-{
-  "type"; "module";
-}
-
 import plant1 from '../assets/c4plant.mp3';
 import beep1 from '../assets/c4Sound.mp3';
 import defuse1 from '../assets/c4defuse.mp3';
