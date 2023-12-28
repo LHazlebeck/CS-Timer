@@ -7,11 +7,11 @@ const defuseAnnounce1 = require('../assets/defuseAnnouncement.mp3');
 const yay1 = require('../assets/yayyyyy.mp3');*/
 
 const plant = document.getElementById("c4plant");
-const beep = document.getElementById("c4Sound");
+const beep = document.getElementById("c4sound");
 const defuse = document.getElementById("c4defuse");
-const tWin = document.getElementById("tWin");
-const csWin = document.getElementById("csWin");
-const defuseAnnounce = document.getElementById("defuseAnnouncement");
+const tWin = document.getElementById("twin");
+const csWin = document.getElementById("cswin");
+const defuseAnnounce = document.getElementById("defuseannouncement");
 const yay = document.getElementById("yay");
 let jerry;
 
