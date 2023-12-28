@@ -231,7 +231,7 @@ function bombSet() {
 
 bombSet()
 
-let permission = document.createElement('button')
+/* let permission = document.createElement('button')
 permission.textContent = "CLICK ME FIRST BRO"
 body.appendChild(permission)
 
